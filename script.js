@@ -103,13 +103,3 @@ document.addEventListener('keydown', (e) => {
         document.body.style.animation = 'rainbow 2s infinite';
     }
 });
-
-// Add rainbow animation for easter egg
-const style = document.createElement('style');
-style.textContent = `
-    @keyframes rainbow {
-        0% { filter: hue-rotate(0deg); }
-        100% { filter: hue-rotate(360deg); }
-    }
-`;
-document.head.appendChild(style);
