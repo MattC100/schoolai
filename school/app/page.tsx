@@ -128,6 +128,14 @@ export default function Home() {
     return () => clearTimeout(timer);
   }, [currentSlide, showPresentation, contentTypewriter.isComplete]);
 
+  const handleSkipPresentation = () => {
+    setIsTransitioning(true);
+    setTimeout(() => {
+      setShowPresentation(false);
+      setShowChat(true);
+    }, 300);
+  };
+
   const sendMessage = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!input.trim() || isLoading) return;
@@ -225,6 +233,9 @@ export default function Home() {
             </div>
           ) : null}
         </div>
+        <button className="skip-button" onClick={handleSkipPresentation}>
+          Skip
+        </button>
       </div>
     );
   }
