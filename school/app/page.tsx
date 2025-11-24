@@ -10,23 +10,23 @@ interface Message {
 const SLIDES = [
   {
     title: 'A New Era of Access',
-    content: 'Social media platforms have democratized access to powerful AI tools. Developers can now integrate cutting-edge technology with just a few API calls.',
-    delay: 4500,
+    content: 'Social media platforms have democratized access to powerful AI tools. Developers can now integrate cutting edge technology with just a few API calls.',
+    delay: 7500,
   },
   {
     title: 'The Hidden Risk',
-    content: 'But this accessibility comes with a cost. When you interact with AI through someone else\'s software, you\'re trusting their implementation—and their intentions.',
-    delay: 5000,
+    content: 'But this accessibility comes with a cost. When you interact with AI through someone else\'s software, you\'re trusting their implementation and their intentions.',
+    delay: 9000,
   },
   {
     title: 'The Chain of Trust',
     content: 'You → Their Software → AI Model → Response. At any point in this chain, information can be altered, filtered, or manipulated.',
-    delay: 5000,
+    delay: 9000,
   },
   {
     title: 'Discover the Truth',
-    content: 'This is a blatant example—the AI will obviously lie. But imagine the future: subtle prompt engineering could influence your choices without you even realizing it.',
-    delay: 5500,
+    content: 'This is a more obvious example, the AI will obviously lie. But imagine the future: subtle prompt engineering could influence your choices without you even realizing it.',
+    delay: 9500,
   },
 ];
 
